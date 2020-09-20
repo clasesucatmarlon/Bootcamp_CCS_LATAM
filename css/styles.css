@@ -1,16 +1,42 @@
 body {
     margin: 0;
     padding: 0;
-    background: black;
+    background: white;
 }
 
+
+
 .calculator-grid {
+    background: url(../img/calc3.jpg) top center;
+    position: relative;
+    background-size: cover;
+    position: relative;
     display: grid;
     justify-content: center;
     align-content: center;
-    min-height: 100vh;
+    min-height: 80vh;
     grid-template-columns: repeat(4, 65px);
     grid-template-rows: minmax(120px, auto), repeat(5, 100px);
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    align-items: center;
+    background: chocolate;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    color: black;
+    font-size: 2rem;
+    align-items: center;
+    background: rgb(197, 150, 115);
 }
 
 .calculator-grid > button {
@@ -20,6 +46,14 @@ body {
     outline: none;
     background-color: blue;
     height: 65px;
+}
+
+.calculator-grid .color-bg-oper {
+    background-color: rgb(197, 150, 115);
+}
+
+.calculator-grid .color-bg-oper:hover {
+    background-color: chocolate;
 }
 
 .output {
