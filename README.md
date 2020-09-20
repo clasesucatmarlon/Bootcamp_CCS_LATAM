@@ -1,2 +1,2 @@
-# Bootcamp_CCS_LATAM
-Bootcamp CCS LATAM
+# Calculator
+Calculator using HTMH, CSS and JS
